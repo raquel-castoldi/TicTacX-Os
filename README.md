@@ -40,6 +40,6 @@ The program that we will be using for the responsive design will be CSS.
 
 Using CSS for responsive design ensures the game is accessible for each component for each framework within the app. 
 
-### Consequences:
+## Consequences:
 
 By developing a web-based Tic-Tac-Toe game with React for the frontend and Python support for the backend, we can achieve a responsive and interactive gaming experience. The game is designed for local multiplayer functionality, allowing two players to take turns on a single device. This setup ensures a fair and engaging gameplay experience for friends and family sharing the same screen.
