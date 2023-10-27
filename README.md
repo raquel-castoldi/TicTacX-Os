@@ -1,2 +1,8 @@
 # TicTacX-Os
-CPRG303 Gail Javier, Leslie Evangelista, Raquel Fernandes Castoldi, Zeus Estrella
+By: Gail Javier, Leslie Evangelista, Raquel Fernandes Castoldi, and Zeus Estrella
+
+## Context
+We are developing a multiplayer tic-tac-toe gaming application designed for dual-player engagement on a single device.
+
+## Decision
+
