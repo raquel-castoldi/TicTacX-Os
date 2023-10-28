@@ -99,3 +99,16 @@ input[type=text] {
     color: #FFFFFF;
     font-family: 'Baloo', cursive;
 }
+
+#winner  {
+    width: 223px;
+    height: 60;
+    margin: auto;
+    padding: 15px;
+    background-color: #388FFF;
+    border-radius: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Baloo', cursive;
+    font-size: 30px;
+}
