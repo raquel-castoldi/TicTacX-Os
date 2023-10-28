@@ -29,19 +29,19 @@
     font-size: 30px;
 }
 
-#start {
+#green-button {
 
     background-color: #39D87C;
 
 }
 
-#how-to-play {
+#yellow-button {
 
     background-color: #CFCF5B;
 
 }
 
-#quit {
+#red-button {
 
     background-color: #F64444;
 
@@ -81,3 +81,7 @@ input[type=text] {
 
 }
  
+#game {
+    width: 220px;
+    padding-left: 85px;
+}
