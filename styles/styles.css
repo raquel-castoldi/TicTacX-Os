@@ -17,8 +17,8 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding-top: 20px;
     border: none;
     border-radius: 15px;
@@ -55,7 +55,7 @@
 input[type=text] {
     width: 90%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin-bottom: 15px;
     box-sizing: border-box;
     border: none;
     border-radius: 15px;
@@ -82,6 +82,20 @@ input[type=text] {
 }
  
 #game {
-    width: 220px;
+    width: 223px;
     padding-left: 85px;
+    margin-top: 10px;
+
+}
+
+#player {
+    width: 223px;
+    height: 30px;
+    margin: auto;
+    padding-top: 8px;
+    background-color: #110B3A;
+    border-radius: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Baloo', cursive;
 }
