@@ -101,10 +101,10 @@ input[type=text] {
 }
 
 #winner  {
+    height: 223px;
     width: 223px;
-    height: 60;
     margin: auto;
-    padding: 15px;
+    padding: 20px;
     background-color: #388FFF;
     border-radius: 15px;
     text-align: center;
