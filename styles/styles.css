@@ -5,7 +5,7 @@
     height: 655px;
     background-color: #140A56;
 }
-
+ 
 #logo {
     padding: 20px 40px 20px 40px;
     width: 300px;
@@ -62,7 +62,7 @@ input[type=text] {
     background-color: #110B3A;
     font-family: 'Baloo', cursive;
     font-size: 20px;
-    color: #303030;
+    color:white;
 }
 
 #instructions {
@@ -88,7 +88,20 @@ input[type=text] {
 
 }
 
-#player {
+p#player1{
+    width: 223px;
+    height: 30px;
+    margin: auto;
+    padding-top: 8px;
+    background-color: #110B3A;
+    border-radius: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Baloo', cursive;
+}
+
+
+#player{
     width: 223px;
     height: 30px;
     margin: auto;

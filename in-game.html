@@ -9,7 +9,7 @@
     <div id="screen">
     <img id="logo" src="images\logo.png" alt="TicTacX&OsLogo">
     <div>
-        <p id="player">Player 1</p>
+        <p id="player1">Player 1</p>
         <img id="game" src="images\game.png" alt="game">
     </div>
     <div>
@@ -17,6 +17,11 @@
         <a href="menu.html"><button class="buttons" id="red-button">Quit</button></a>
     </div>
     </div>
+
+    <script>
+        var player1 = localStorage.getItem('player1');
+        var player2 = localStorage.getItem('player2');
+        document.getElementById('player1').innerText = player1;
+    </script>
 </body>
 </html>
-
