@@ -4,11 +4,6 @@ import GameOver from "./GameOver";
 import GameState from "./GameState";
 import Reset from "./Reset";
 
-const gameOverSound = new Audio(gameOverSoundAsset);
-gameOverSound.volume = 0.2;
-const clickSound = new Audio(clickSoundAsset);
-clickSound.volume = 0.5;
-
 const PLAYER_X = new Image();
 PLAYER_X.src = 'x-icon.png';
 
@@ -58,7 +53,7 @@ function checkWinner(tiles, setStrikeClass, setGameState) {
   }
 }
 
-function TicTacToe() {
+function TicTacXOs() {
   const [tiles, setTiles] = useState(Array(9).fill(null));
   const [playerTurn, setPlayerTurn] = useState(PLAYER_X);
   const [strikeClass, setStrikeClass] = useState();
