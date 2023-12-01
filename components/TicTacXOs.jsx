@@ -121,4 +121,4 @@ function TicTacToe() {
   );
 }
 
-export default TicTacX&Os;
+export default TicTacXOs;
