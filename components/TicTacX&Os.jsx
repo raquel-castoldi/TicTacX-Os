@@ -3,16 +3,17 @@ import Board from "./Board";
 import GameOver from "./GameOver";
 import GameState from "./GameState";
 import Reset from "./Reset";
-import gameOverSoundAsset from "../sounds/game_over.wav";
-import clickSoundAsset from "../sounds/click.wav";
 
 const gameOverSound = new Audio(gameOverSoundAsset);
 gameOverSound.volume = 0.2;
 const clickSound = new Audio(clickSoundAsset);
 clickSound.volume = 0.5;
 
-const PLAYER_X = "X";
-const PLAYER_O = "O";
+const PLAYER_X = new Image();
+PLAYER_X.src = 'x-icon.png';
+
+const PLAYER_O = new Image();
+PLAYER_O.src = 'o-icon.png';
 
 const winningCombinations = [
   //Rows
@@ -120,4 +121,4 @@ function TicTacToe() {
   );
 }
 
-export default TicTacToe;
+export default TicTacX&Os;
