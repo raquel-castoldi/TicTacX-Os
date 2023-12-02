@@ -1,3 +1,14 @@
+.logo {
+  font-family: 'Candal', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Game bored*/
 .board {
     display: grid;
     grid-template-columns: 100px 100px 100px;
@@ -25,11 +36,13 @@
   .x-hover:hover::after {
     content: "X";
     opacity: 0.4;
+    color: #388FFF;
   }
   
   .o-hover:hover::after {
     content: "O";
     opacity: 0.4;
+    color: #F64444;
   }
   
   .strike {
@@ -99,3 +112,102 @@
     width: 100%;
     font-size: 1.5em;
   }
+
+/* End of game bored*/
+
+/* buttons */
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border: none;
+  border-radius: 15px;
+  width: 223px;
+  height: 81px;
+  color: #FFFFFF;
+  font-family: 'Baloo', cursive;
+  font-size: 30px;
+}
+
+.green-button {
+
+  background-color: #39D87C;
+
+}
+
+.yellow-button {
+
+  background-color: #CFCF5B;
+
+}
+
+.red-button {
+
+  background-color: #F64444;
+
+}
+
+/* Color of the instructions */
+.HowToPlay {
+    background-color: #CFCF5B;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Baloo', cursive;
+    font-size: 20px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #000000;
+
+}
+
+/* Players colors */
+
+.player1{
+  width: 223px;
+  height: 30px;
+  margin: auto;
+  padding-top: 8px;
+  background-color: #110B3A;
+  border-radius: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Baloo', cursive;
+}
+
+
+.player2{
+  width: 223px;
+  height: 30px;
+  margin: auto;
+  padding-top: 8px;
+  background-color: #110B3A;
+  border-radius: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Baloo', cursive;
+}
+
+/* Winner colors*/
+
+.game-over  {
+  height: 223px;
+  width: 223px;
+  margin: auto;
+  padding: 20px;
+  background-color: #388FFF;
+  border-radius: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Baloo', cursive;
+  font-size: 30px;
+}
