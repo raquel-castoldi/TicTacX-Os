@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.tictacox"
+    namespace "com.tictacxos"
     defaultConfig {
-        applicationId "com.tictacox"
+        applicationId "com.tictacxos"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
