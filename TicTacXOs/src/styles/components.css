@@ -1,5 +1,16 @@
-/* logo */
+
+/* Typography */
 .logo {
+  font-family: 'Candal', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.title {
   font-family: 'Candal', sans-serif;
   font-size: 24px;
   font-weight: bold;
@@ -114,7 +125,7 @@
     font-size: 1.5em;
   }
 
-/* buttons */
+/* Buttons */
 
 .buttons {
   display: flex;
