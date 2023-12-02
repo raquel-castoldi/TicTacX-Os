@@ -89,17 +89,7 @@ function TicTacXOs() {
     checkWinner(tiles, setStrikeClass, setGameState);
   }, [tiles]);
 
-  useEffect(() => {
-    if (tiles.some((tile) => tile !== null)) {
-      clickSound.play();
-    }
-  }, [tiles]);
-
-  useEffect(() => {
-    if (gameState !== GameState.inProgress) {
-      gameOverSound.play();
-    }
-  }, [gameState]);
+   ([gameState]);
 
   return (
     <div>
