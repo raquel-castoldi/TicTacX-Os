@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> TicTacX&Os </title>
+    <link rel="stylesheet" href="styles\styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Baloo' rel='stylesheet'>
+</head>
+<body>
+    <div id="screen">
+        <img id="logo" src="images\logo.png" alt="TicTacX&Os Logo">
+        <form id="form">
+            <img class="icons" src="images\x-icon.png" alt="x-icon">
+            <input class="input" type="text" id="player1" placeholder="Enter Your Name">
+            <img class="icons" src="images\o-icon.png" alt="o-icon">
+            <input class="input" type="text" id="player2" placeholder="Enter Your Name">
+        </form>
+            <button class="buttons" id="green-button">Play</button>
+    </div>
+    <script>
+        document.getElementById('green-button').addEventListener('click', function(event) {
+            event.preventDefault();
+            var player1 = document.getElementById('player1').value;
+            var player2 = document.getElementById('player2').value;
+            localStorage.setItem('player1', player1);
+            localStorage.setItem('player2', player2);
+            window.location.href = 'in-game.html';
+        });
+    </script>
+</body>
+</html>

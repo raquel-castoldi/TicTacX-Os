@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> TicTacX&Os </title>
+    <link rel="stylesheet" href="styles\styles.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Baloo'>
+    <script>
+        function displayPlayerName() {
+            var playerName = localStorage.getItem("playerName");
+            if (playerName) {
+                document.getElementById("player-name").textContent = playerName;
+            } else {
+                document.getElementById("player-name").textContent = "Player1";
+            }
+        }
+    </script>
+</head>
+<body onload="displayPlayerName()">
+    <div id="screen">
+    <img id="logo" src="images\logo.png" alt="TicTacX&OsLogo">
+    <div id="winner">
+        <p>Player{<span id="player-name"></span>} wins</p>
+    
+        <a href="menu.html"><button class="buttons" id="green-button">Finish</button></a>
+    </div>
+    </div>
+</body>
+</html>

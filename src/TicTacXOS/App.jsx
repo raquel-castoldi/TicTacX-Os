@@ -54,6 +54,7 @@ function Section({children, title}) {
 }
 
 function App() {
+  
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
