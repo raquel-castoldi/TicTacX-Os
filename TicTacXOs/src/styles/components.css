@@ -1,6 +1,11 @@
-#logo {
-  padding: 20px 40px 20px 40px;
-  width: 300px;
+.logo {
+  font-family: 'Candal', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 /* Game bored*/
@@ -130,25 +135,26 @@
   font-size: 30px;
 }
 
-#green-button {
+.green-button {
 
   background-color: #39D87C;
 
 }
 
-#yellow-button {
+.yellow-button {
 
   background-color: #CFCF5B;
 
 }
 
-#red-button {
+.red-button {
 
   background-color: #F64444;
 
 }
 
-#instructions {
+/* Color of the instructions */
+.HowToPlay {
     background-color: #CFCF5B;
     display: flex;
     flex-direction: column;
@@ -162,4 +168,46 @@
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: #000000;
 
+}
+
+/* Players colors */
+
+.player1{
+  width: 223px;
+  height: 30px;
+  margin: auto;
+  padding-top: 8px;
+  background-color: #110B3A;
+  border-radius: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Baloo', cursive;
+}
+
+
+.player2{
+  width: 223px;
+  height: 30px;
+  margin: auto;
+  padding-top: 8px;
+  background-color: #110B3A;
+  border-radius: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Baloo', cursive;
+}
+
+/* Winner colors*/
+
+.game-over  {
+  height: 223px;
+  width: 223px;
+  margin: auto;
+  padding: 20px;
+  background-color: #388FFF;
+  border-radius: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Baloo', cursive;
+  font-size: 30px;
 }
