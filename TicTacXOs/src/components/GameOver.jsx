@@ -1,4 +1,7 @@
+import React from "react";
 import GameState from "./GameState";
+import ".styles/components.css"
+
 
 function GameOver({ gameState }) {
   switch (gameState) {

@@ -1,3 +1,6 @@
+import React from "react";
+import ".styles/components.css"
+
 function Strike({ strikeClass }) {
   return <div className={`strike ${strikeClass}`}></div>;
 }

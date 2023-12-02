@@ -1,6 +1,7 @@
 import React from "react";
-import { SafeAreaView, StyleSheet } from "react-native";
+import { SafeAreaView } from "react-native";
 import { useHistory } from 'react-router-dom';
+import ".styles/components.css"
 
 function HowToPlay() {
     const history = useHistory();
@@ -12,7 +13,7 @@ function HowToPlay() {
     return (
         <SafeAreaView style={styles.container}>
             <div className="screen">
-                <div className="title"><h1> How to Play </h1></div>
+                <div className="title"><h2> How to Play </h2></div>
                 <p>
                     1. Player takes turns, marking empty cells with “X” and “O”. <br />
                     2. Win by getting three in a row horizontally, vertically, or diagonally. <br />

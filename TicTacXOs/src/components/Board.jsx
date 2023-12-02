@@ -1,5 +1,7 @@
+import React from "react";
 import Strike from "./Strike";
 import Tile from "./Tile";
+import ".styles/components.css"
 
 function Board({ tiles, onTileClick, playerTurn, strikeClass }) {
   return (

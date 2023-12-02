@@ -1,6 +1,7 @@
 import React from "react";
-import { SafeAreaView, StyleSheet } from "react-native";
+import { SafeAreaView } from "react-native";
 import { useHistory } from 'react-router-dom';
+import ".styles/components.css"
 
 function HomeScreen() {
     const history = useHistory();
@@ -15,7 +16,7 @@ function HomeScreen() {
     return (
         <SafeAreaView style={styles.container}>
             <div className="screen">
-                <div className="title">
+                <div className="logo">
                     <h1>TicTacX&Os</h1>
                 </div>
                 <div className="buttons">

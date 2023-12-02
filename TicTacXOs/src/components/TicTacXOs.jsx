@@ -1,8 +1,11 @@
+import React from "react";
 import { useState, useEffect } from "react";
 import Board from "./Board";
 import GameOver from "./GameOver";
 import GameState from "./GameState";
 import Reset from "./Reset";
+import ".styles/components.css"
+
 
 const PLAYER_X = new Image();
 PLAYER_X.src = 'x-icon.png';

@@ -1,3 +1,4 @@
+/* logo */
 .logo {
   font-family: 'Candal', sans-serif;
   font-size: 24px;
@@ -8,7 +9,7 @@
   border-radius: 8px;
 }
 
-/* Game bored*/
+/* Game board */
 .board {
     display: grid;
     grid-template-columns: 100px 100px 100px;
@@ -113,8 +114,6 @@
     font-size: 1.5em;
   }
 
-/* End of game bored*/
-
 /* buttons */
 
 .buttons {
@@ -153,7 +152,7 @@
 
 }
 
-/* Color of the instructions */
+/* Instructions */
 .HowToPlay {
     background-color: #CFCF5B;
     display: flex;
@@ -170,7 +169,7 @@
 
 }
 
-/* Players colors */
+/* Players */
 
 .player1{
   width: 223px;
@@ -197,7 +196,7 @@
   font-family: 'Baloo', cursive;
 }
 
-/* Winner colors*/
+/* Winner */
 
 .game-over  {
   height: 223px;
